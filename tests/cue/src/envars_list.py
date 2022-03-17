@@ -49,7 +49,7 @@ envars = {
     'VSC_SCRATCH_NODE':
     {
         'name': 'VSC_SCRATCH_NODE',
-        'exe': py_start  + """print(os.environ["{}"] in ["/local", "/node_scratch", "/tmp"])'""",
+        'exe': py_start  + """print(os.environ["{}"] in ["/local", "/node_scratch/", "/tmp"])'""",
     },
     'VSC_SCRATCH_SITE':
     {
